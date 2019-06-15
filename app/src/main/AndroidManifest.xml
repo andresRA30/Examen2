@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AddRecordActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".UpdateRecordActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
